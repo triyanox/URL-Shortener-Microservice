@@ -67,9 +67,6 @@ app.get("/api/shorturl/:short_url", (req, res) => {
   });
 });
 
-app.get("/api/hello", function (req, res) {
-  res.json({ greeting: "hello API" });
-});
 
 app.listen(port, function () {
   console.log(`Listening on port ${port}`);
